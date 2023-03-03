@@ -1,5 +1,9 @@
+import { BaseLayout } from "@/layouts/base-layout"
+
 export default function Home() {
     return (
-        <h1>Leandro Gavidia</h1>
+        <BaseLayout>
+            <h1 className="text-base">Leandro Gavidia</h1>
+        </BaseLayout>
     )
 }

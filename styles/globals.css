@@ -1,19 +1,9 @@
-html {
-    font-size: 62.5%;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scrollbar-width: thin;
-    /* scrollbar-color: ${({ theme }) => theme.colors.primary} rgba(0, 0, 0, 0); */
+@layer base {
+    body {
+        @apply bg-dark-background h-screen text-white-text;
+    }
 }
-
-/* body {
-    font-family: Comfortaa, sans-serif;
-    height: 100vh;
-    background: ${({ theme }) => theme.colors.gradient};
-    color: ${({ theme }) => theme.colors.text};
-    letter-spacing: 0.04rem;
-} */
