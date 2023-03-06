@@ -1,9 +1,10 @@
 import { BaseLayout } from "@/layouts/base-layout"
+import { HomeView } from "@/views/home/"
 
 export default function Home() {
     return (
         <BaseLayout>
-            <h1 className="text-base">Leandro Gavidia</h1>
+            <HomeView />
         </BaseLayout>
     )
 }

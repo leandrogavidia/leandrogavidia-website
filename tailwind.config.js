@@ -4,7 +4,8 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./layouts/**/*.{js,ts,jsx,tsx}"
+    "./layouts/**/*.{js,ts,jsx,tsx}",
+    "./views/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     colors: {
@@ -21,7 +22,14 @@ module.exports = {
       "third": "#161B22",
       "gradient": "linear-gradient(#950101, #FF0000)"
     },
-    extend: {},
+    extend: {
+      width: {
+        "pi": "5.625rem"
+      },
+      height: {
+        "pi": "5.625rem"
+      }
+    },
   },
   plugins: [],
 }

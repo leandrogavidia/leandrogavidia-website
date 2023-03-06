@@ -8,7 +8,7 @@ export function Header() {
                 <ul>
                     <li>
                         <Link href="/">
-                            <Image 
+                            <Image
                                 src=""
                                 alt=""
                                 title=""
