@@ -20,7 +20,6 @@ module.exports = {
       "primary": "#FF0000",
       "secondary": "#950101",
       "third": "#161B22",
-      "gradient": "linear-gradient(#950101, #FF0000)"
     },
     extend: {
       width: {
@@ -28,6 +27,9 @@ module.exports = {
       },
       height: {
         "pi": "5.625rem"
+      },
+      backgroundImage: {
+        "gradient": "linear-gradient(-90deg, #950101, #FF0000)"
       }
     },
   },
